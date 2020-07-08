@@ -133,4 +133,4 @@ Everytime a `!series` command is executed, `TuskBot` stores those replays in its
 
 ### URL Commands
 
-Use the `!help` command to learn about simple commands to get URLs to specific user pages on [ballchasing.com](http://ballchasing.com), [calculated.gg](htttp://calculated.gg), [rltracker](http://rocketleague.tracker.network), etc.
+Use the `!help` command to learn about simple commands to get URLs to specific user pages on [ballchasing.com](http://ballchasing.com), [calculated.gg](http://calculated.gg), [rltracker](http://rocketleague.tracker.network), etc.
