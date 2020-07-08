@@ -29,7 +29,7 @@
   - `Champion III`
   - `Grand Champ`
   - Then: everytime a `!register` or `!ranks` is executed, that player will be automatically assigned the role of their highest rank.
-  - You can choose to add this permission at any time after install and `TuskBot` will still go to work adding these roles and assigning them to players upen execution of `!register` or `!ranks`
+  - You can choose to add this permission at any time and `TuskBot` will go to work adding these roles and assigning them to players upen execution of `!register` or `!ranks`
 
 #### Type `!help`
 
