@@ -119,3 +119,14 @@ Lifetime stats aren't great for comparing players.  Someone who mostly plays Due
 ```shell
 !series @jubi @FezDispenser
 ```
+
+### Alltime Series Stats
+
+Everytime a `!series` command is executed, `TuskBot` stores those replays in its own database.  The `!alltime` command uses those stored replays to show you the aggregate data of all the `!series` commands you've ever run.  So as long as you execute a `!series` command at least once every 36 hours, you'll be able to use `!alltime` to get the complete comparative stats of your games ever since you began using `TuskBot`.
+
+```shell
+!alltime [user1] [user2] [user3] ...
+```
+
+- The display format for `!alltime` is exactly the same as `!series`.
+- `!alltime` ONLY pulls its data from the stored replays inside its local database.  Only `!series` will get new data from [ballchasing.com](http://ballchasing.com)
