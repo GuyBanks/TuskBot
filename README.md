@@ -73,8 +73,8 @@
 
 - To get your own ranks, simply type `!ranks`
 - To get the ranks of another registered player, follow the command with the name, nickname, or @ of another discord member.
-  - ***Example***: `!ranks jubishop`
-  - ***Example***: `!ranks @jubishop`
+  - ***Example***: `!ranks jubi`
+  - ***Example***: `!ranks @jubi`
 - If the `Manage Roles` permission has been granted, every time a rank is checked, the role of that player will be updated to their current highest rank.
 
 ## Stats
