@@ -8,7 +8,7 @@
 
 #### "Manage Roles" permission
 
-- The "Manage Roles" permission is optional.  If granted, `TuskBot` will create 19 roles, one for every Rocket League rank (unless they already exist).  These will be named:
+- If the "Manage Roles" permission is granted, `TuskBot` will create 19 new roles (unless they already exist).  These will be named:
   - `Bronze I`
   - `Bronze II`
   - `Bronze II`
@@ -28,7 +28,7 @@
   - `Champion II`
   - `Champion III`
   - `Grand Champ`
-  - Then: everytime a `!register` or `!ranks` is executed, they will be automatically assigned the role of their highest rank.
+  - Then: everytime a `!register` or `!ranks` is executed, that player will be automatically assigned the role of their highest rank.
   - You can choose to add this permission at any time after install and `TuskBot` will still go to work adding these roles and assigning them to players upen execution of `!register` or `!ranks`
 
 #### Type `!help`
@@ -49,7 +49,7 @@
     - The text at the end of a link like `https://steamcommunity.com/id/jubishop`.  In this case it would be `jubishop`.
     - On the desktop version of Steam, you can find this link by right-clicking anywhere in the empty space of your profile and selecting `Copy Page Url`.  Then simply paste it into the address bar of your browser.
   - **`[platform]`**:  This defaults to steam, so you can omit it.
-  - ***Example***: In this case, the user could register with: `!register 76561198257073170` or: `!register jubishop`.
+  - ***Example***: In this case, the player could register with: `!register 76561198257073170` or: `!register jubishop`.
 
 - **Playstation**:
   - **`<account-id>`**:  This is your PSN.
@@ -72,10 +72,10 @@
 ![Image of Ranks](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/ranks.png)
 
 - To get your own ranks, simply type `!ranks`
-- To get the ranks of another registered user, follow the command with the name, nickname, or @ of another member.
+- To get the ranks of another registered player, follow the command with the name, nickname, or @ of another discord member.
   - ***Example***: `!ranks jubishop`
   - ***Example***: `!ranks @jubishop`
-- If the `Manage Roles` permission has been granted, every time a rank is checked, the role of that user will be updated to their current highest rank.
+- If the `Manage Roles` permission has been granted, every time a rank is checked, the role of that player will be updated to their current highest rank.
 
 ## Stats
 
@@ -93,7 +93,7 @@ You can fetch lifetime stats, across all game-modes and playlists, with:
 
 - You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
 - To fetch your own stats, simply type `!stats`
-- If you provide a list of users it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 users at a time.
+- If you provide a list of players it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 players at a time.
 - The image above was generated with the command:
 
 ```shell
@@ -112,10 +112,10 @@ Lifetime stats aren't great for comparing players.  Someone who mostly plays Due
 
 - You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
 - To fetch your own stats, simply type `!series`
-- This data is gathered from [ballchasing.com](http://ballchasing.com).  Stats are generated from the uploaded replays of the user who executes the `!series` command.  Your replays must be marked `public` for TuskBot to access them.  The easiest way to have all your replay files automatically uploaded is using [BakkesMod](https://bakkesmod.com/).  You can find instructions [here](https://ballchasing.com/doc/faq#upload).
+- This data is gathered from [ballchasing.com](http://ballchasing.com).  Stats are generated from the uploaded replays of the player who executes the `!series` command.  Your replays must be marked `public` for TuskBot to access them.  The easiest way to have all your replay files automatically uploaded is using [BakkesMod](https://bakkesmod.com/).  You can find instructions [here](https://ballchasing.com/doc/faq#upload).
 - **If you do not upload your replays, you will get 0 results.**
 - Because of API rate limits, `!series` will only work off the games you've played in the last 36 hours.  The best way to use this feature is to run it sometime within the following day after a session of playing together.
-- If you provide a list of users it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 users at a time.
+- If you provide a list of players it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 players at a time.
 - After a session of playing Doubles together, the image above was generated with the command:
 
 ```shell
@@ -136,7 +136,7 @@ Everytime a `!series` command is executed, `TuskBot` stores those replays in its
 
 ### URL Commands
 
-Use the `!help` command to learn about simple commands to get URLs to specific user pages on [ballchasing.com](http://ballchasing.com), [calculated.gg](http://calculated.gg), [rltracker](http://rocketleague.tracker.network), etc.
+Use the `!help` command to learn about simple commands to get URLs to specific player pages on [ballchasing.com](http://ballchasing.com), [calculated.gg](http://calculated.gg), [rltracker](http://rocketleague.tracker.network), etc.
 
 ## Try it out before installing
 
