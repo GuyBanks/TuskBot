@@ -9,25 +9,25 @@
 #### "Manage Roles" permission
 
 - The "Manage Roles" permission is optional.  If granted, `TuskBot` will create 19 roles, one for every Rocket League rank (unless they already exist).  These will be named:
-  1. `Bronze I`
-  1. `Bronze II`
-  1. `Bronze II`
-  1. `Silver I`
-  1. `Silver II`
-  1. `Silver III`
-  1. `Gold I`
-  1. `Gold II`
-  1. `Gold III`
-  1. `Platinum I`
-  1. `Platinum II`
-  1. `Platinum III`
-  1. `Diamond I`
-  1. `Diamond II`
-  1. `Diamond III`
-  1. `Champion I`
-  1. `Champion II`
-  1. `Champion III`
-  1. `Grand Champ`
+  - `Bronze I`
+  - `Bronze II`
+  - `Bronze II`
+  - `Silver I`
+  - `Silver II`
+  - `Silver III`
+  - `Gold I`
+  - `Gold II`
+  - `Gold III`
+  - `Platinum I`
+  - `Platinum II`
+  - `Platinum III`
+  - `Diamond I`
+  - `Diamond II`
+  - `Diamond III`
+  - `Champion I`
+  - `Champion II`
+  - `Champion III`
+  - `Grand Champ`
   - Then: everytime a user is registered or their rank is checked, they will be automatically assigned the role of their highest rank.
 
 #### Type `!help`
@@ -67,6 +67,8 @@
 ```shell
 !ranks [member]
 ```
+
+![Image of Ranks](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/ranks.png)
 
 - To get your own ranks, simply type `!ranks`
 - To get the ranks of another registered user, follow the command with the name, nickname, or @ of another member.
