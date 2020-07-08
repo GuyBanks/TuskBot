@@ -92,7 +92,8 @@ You can fetch lifetime stats, across all game-modes and playlists, with:
 
 - You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
 - To fetch your own stats, simply type `!stats`
-- If you provide a list of users it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 users at a time.  The photo above was generated with the command:
+- If you provide a list of users it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 users at a time.
+- The image above was generated with the command:
 
 ```shell
 !stats @jubi @Zoynx @Jetpoof @Piaka @Tombst0ne @FezDispenser
@@ -108,6 +109,13 @@ Lifetime stats aren't great for comparing players.  Someone who mostly plays Due
 
 ![Image of Series](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/series.png)
 
-- The image above comes from running the command `!series @jubi @FezDispenser` after `@jubi` and `@FezDispenser` played a series of 2v2 games together.
+- You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
+- To fetch your own stats, simply type `!series`
 - This data is gathered from [ballchasing.com](http://ballchasing.com).  Stats are generated from the uploaded replays of the user who executes the `!series` command.  Your replays must be marked `public` for TuskBot to access them.  The easiest way to have all your replay files automatically uploaded is using [BakkesMod](https://bakkesmod.com/).  You can find instructions [here](https://ballchasing.com/doc/faq#upload).
 - Because of API rate limits, `!series` will only work off the games you've played in the last 36 hours.  The best way to use this feature is to run it sometime within the following day after a session of playing together.
+- If you provide a list of users it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 users at a time.
+- After a session of playing Doubles together, the image above was generated with the command:
+
+```shell
+!series @jubi @FezDispenser
+```
