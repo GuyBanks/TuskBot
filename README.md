@@ -97,3 +97,17 @@ You can fetch lifetime stats, across all game-modes and playlists, with:
 ```shell
 !stats @jubi @Zoynx @Jetpoof @Piaka @Tombst0ne @FezDispenser
 ```
+
+### Series Stats
+
+Lifetime stats aren't great for comparing players.  Someone who mostly plays Duel 1v1 is going to have wildly different stats than someone that prefers Standard 3v3.  The `!series` command provides a way to view stats for the specific games where all the players were playing together.  This makes for much more interesting comparisons.
+
+```shell
+!series [user1] [user2] [user3] ...
+```
+
+![Image of Series](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/series.png)
+
+- The image above comes from running the command `!series @jubi @FezDispenser` after `@jubi` and `@FezDispenser` played a series of 2v2 games together.
+- This data is gathered from [ballchasing.com](http://ballchasing.com).  Stats are generated from the uploaded replays of the user who executes the `!series` command.  Your replays must be marked `public` for TuskBot to access them.  The easiest way to have all your replay files automatically uploaded is using [BakkesMod](https://bakkesmod.com/).  You can find instructions [here](https://ballchasing.com/doc/faq#upload).
+- Because of API rate limits, `!series` will only work off the games you've played in the last 36 hours.  The best way to use this feature is to run it sometime within the following day after a session of playing together.
