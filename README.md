@@ -86,7 +86,7 @@ There are 3 commands for getting stats in various ways.
 You can fetch lifetime stats, across all game-modes and playlists, with:
 
 ```shell
-!stats [user1] [user2] [user3] ...
+!stats [member1] [member2] [member3] ...
 ```
 
 ![Image of Stats](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/stats.png)
@@ -105,7 +105,7 @@ You can fetch lifetime stats, across all game-modes and playlists, with:
 Lifetime stats aren't great for comparing players.  Someone who mostly plays Duel 1v1 is going to have wildly different stats than someone that prefers Standard 3v3.  The `!series` command provides a way to view stats for the specific games where all the players were playing together.  This makes for much more interesting comparisons.
 
 ```shell
-!series [user1] [user2] [user3] ...
+!series [member1] [member2] [member3] ...
 ```
 
 ![Image of Series](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/series.png)
@@ -127,7 +127,7 @@ Lifetime stats aren't great for comparing players.  Someone who mostly plays Due
 Everytime a `!series` command is executed, `TuskBot` stores those replays in its own database.  The `!alltime` command uses those stored replays to show you the aggregate data of all the `!series` commands you've ever run.  So as long as you execute a `!series` command at least once every 36 hours, you'll be able to use `!alltime` to get the complete comparative stats of your games ever since you began using `TuskBot`.
 
 ```shell
-!alltime [user1] [user2] [user3] ...
+!alltime [member1] [member2] [member3] ...
 ```
 
 - The display format for `!alltime` is exactly the same as `!series`.
