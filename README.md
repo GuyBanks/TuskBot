@@ -113,7 +113,7 @@ Lifetime stats aren't great for comparing players.  Someone who mostly plays Due
 - You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
 - To fetch your own stats, simply type `!series`
 - This data is gathered from [ballchasing.com](http://ballchasing.com).  Stats are generated from the uploaded replays of the player who executes the `!series` command.  Your replays must be marked `public` for TuskBot to access them.  The easiest way to have all your replay files automatically uploaded is using [BakkesMod](https://bakkesmod.com/).  You can find instructions [here](https://ballchasing.com/doc/faq#upload).
-- **If you do not upload your replays, you will get 0 results.**
+- **If you do not upload your replays to [ballchasing.com](http://ballchasing.com), you will get 0 results from `!series`.**
 - Because of API rate limits, `!series` will only work off the games you've played in the last 36 hours.  The best way to use this feature is to run it sometime within the following day after a session of playing together.
 - If you provide a list of players it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 players at a time.
 - After a session of playing Doubles together, the image above was generated with the command:
@@ -132,7 +132,7 @@ Everytime a `!series` command is executed, `TuskBot` stores those replays in its
 
 - The display format for `!alltime` is exactly the same as `!series`.
 - The `!alltime` command will only pull data from the stored replays inside its local database.  Only the `!series` command will get new data from [ballchasing.com](http://ballchasing.com)
-- **If you do not upload your replays, or you never run the `!series` command, you will get 0 results.**
+- **If you do not upload your replays to [ballchasing.com](http://ballchasing.com), or you never run the `!series` command, you will get 0 results from `!alltime`.**
 
 ### URL Commands
 
