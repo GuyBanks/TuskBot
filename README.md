@@ -2,6 +2,8 @@
 
 **`TuskBot` is a Rocket League Discord Bot focused on tracking player ranks and in-game stats.**
 
+![Image of Ranks](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/tusk.png)
+
 ## Getting Started
 
 ### [Install TuskBot](https://discordapp.com/oauth2/authorize?&client_id=708694380869058600&permissions=268848192&scope=bot) on your discord server
