@@ -129,4 +129,8 @@ Everytime a `!series` command is executed, `TuskBot` stores those replays in its
 ```
 
 - The display format for `!alltime` is exactly the same as `!series`.
-- `!alltime` ONLY pulls its data from the stored replays inside its local database.  Only `!series` will get new data from [ballchasing.com](http://ballchasing.com)
+- The `!alltime` command will only pull data from the stored replays inside its local database.  Only the `!series` command will get new data from [ballchasing.com](http://ballchasing.com)
+
+### URL Commands
+
+Use the `!help` command to learn about simple commands to get URLs to specific user pages on [ballchasing.com](http://ballchasing.com), [calculated.gg](htttp://calculated.gg), [rltracker](http://rocketleague.tracker.network), etc.
