@@ -2,7 +2,7 @@
 
 **`TuskBot` is a Rocket League Discord Bot focused on tracking player ranks and in-game stats.**
 
-![Image of Tusk](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/tusk.png)
+![Image of Tusk](./images/tusk.png)
 
 ## Getting Started
 
@@ -91,7 +91,7 @@ You can fetch lifetime stats, across all game-modes and playlists, with:
 !stats [member1] [member2] [member3] ...
 ```
 
-![Image of Stats](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/stats.png)
+![Image of Stats](./images/stats.png)
 
 - You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
 - To fetch your own stats, simply type `!stats`
@@ -110,7 +110,7 @@ Lifetime stats aren't great for comparing players.  Someone who mostly plays Due
 !series [member1] [member2] [member3] ...
 ```
 
-![Image of Series](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/series.png)
+![Image of Series](./images/series.png)
 
 - You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
 - To fetch your own stats, simply type `!series`
