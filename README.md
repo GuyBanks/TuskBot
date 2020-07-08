@@ -71,7 +71,7 @@
 !ranks [member]
 ```
 
-![Image of Ranks](./ranks.png)
+![Image of Ranks](./images/ranks.png)
 
 - To get your own ranks, simply type `!ranks`
 - To get the ranks of another registered player, follow the command with the name, nickname, or @ of another discord member.
