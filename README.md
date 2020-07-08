@@ -90,8 +90,10 @@ You can fetch lifetime stats, across all game-modes and playlists, with:
 
 ![Image of Stats](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/stats.png)
 
+- You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
 - To fetch your own stats, simply type `!stats`
-- Providing a list of users displays a table so their stats can be easily compared side by side.  You can fetch up to 6 users at a time:
+- If you provide a list of users it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 users at a time.  The photo above was generated with the command:
 
 ```shell
-!stats @jubi
+!stats @jubi @Zoynx @Jetpoof @Piaka @Tombst0ne @FezDispenser
+```
