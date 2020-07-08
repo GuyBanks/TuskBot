@@ -71,7 +71,7 @@
 !ranks [member]
 ```
 
-![Image of Ranks](https://raw.githubusercontent.com/jubishop/TuskBot/master/images/ranks.png)
+![Image of Ranks](./ranks.png)
 
 - To get your own ranks, simply type `!ranks`
 - To get the ranks of another registered player, follow the command with the name, nickname, or @ of another discord member.
