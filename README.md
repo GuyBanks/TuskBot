@@ -65,7 +65,7 @@
 
 - **Switch**:  Sorry, Switch is not yet supported.
 
-#### Registering Others
+#### Registering others
 
 If you are the server's owner (or you've messaged me to ask to be whitelisted), you can register people other than yourself.  The command is `!admin_register`, and the first param becomes the discord user to register.
 
@@ -73,7 +73,7 @@ If you are the server's owner (or you've messaged me to ask to be whitelisted), 
 - ***PS Example***: `!admin_register @jubi jubishop ps`
 - ***XBox Example***: `!admin_register @jubi jubishop xbox`
 
-#### **!update_all_roles**
+#### Updating all roles
 
 You can also update the role of every registered user in the channel with `!update_all_roles`.
 
