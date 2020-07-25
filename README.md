@@ -55,11 +55,13 @@
   - **`<account-id>`**:  This is your PSN.
   - **`[platform]`**: This should be `ps`.
   - ***Example***: If your PSN is `jubishop`, you'd register with: `!register jubishop ps`
+  - If your PSN contains spaces, wrap it in quotes: `!register "My Name" ps`
 
 - **XBox**:
   - **`<account-id>`**:  This is your Gamertag.
   - **`[platform]`**: This should be `xbox`.
   - ***Example***: If your Gamertag is `jubishop`, you'd register with: `!register jubishop xbox`
+  - If your Gamertag contains spaces, wrap it in quotes: `!register "My Name" xbox`
 
 - **Switch**:  Sorry, Switch is not yet supported.
 
@@ -94,6 +96,7 @@ You can fetch lifetime stats, across all game-modes and playlists, with:
 - You can click the :arrow_left: and :arrow_right: buttons to flip between the different pages of statistics.
 - To fetch your own stats, simply type `!stats`
 - If you provide a list of players it will display a table so their stats can be easily compared side by side.  You can fetch up to 6 players at a time.
+- This data is gathered from [calculated.gg](https://calculated.gg/).
 - The image above was generated with the command:
 
 ```shell
