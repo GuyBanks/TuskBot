@@ -33,29 +33,6 @@ Then: everytime a `!register` or `!ranks` is executed, that player will be autom
 
 You can choose to add this permission at any time and `TuskBot` will go to work adding these roles and assigning them to players upen execution of `!register` or `!ranks`
 
-#### Defining which playlists affect roles
-
-By default, all playlists are considered when assigning roles. Server owners (or whitelisted users) can narrow this selection to any set of playlists they prefer using `!role_playlists`.  Playlist names are identified as:
-
-- `standard`
-- `doubles`
-- `duel`
-- `solo_standard`
-- `rumble`
-- `dropshot`
-- `hoops`
-- `snow_day`
-
-Join the playlists you care about with a `|` between each one.  For example, if you want to only assign roles based on the ranks in the `doubles`, `standard`, and `solo_standard` playlists:
-
-```shell
-!role_playlists doubles|standard|solo_standard
-```
-
-If you run `!role_playlists` with no parameters, it'll show you what playlists are currently being used.
-
-If you want to go back to the default, run `!clear_role_playlists`.
-
 #### Type `!help`
 
 Once the bot is installed, you can type `!help` to see a list of all possible commands.
@@ -97,6 +74,31 @@ If you are the server's owner (or you're whitelisted), you can register people o
 - ***Steam Example***: `!admin_register @jubi jubishop`
 - ***PS Example***: `!admin_register @jubi jubishop ps`
 - ***XBox Example***: `!admin_register @jubi jubishop xbox`
+
+### Role Assignments
+
+#### Defining which playlists affect roles
+
+By default, all playlists are considered when assigning roles. Server owners (or whitelisted users) can narrow this selection to any set of playlists they prefer using `!role_playlists`.  Playlist names are identified as:
+
+- `standard`
+- `doubles`
+- `duel`
+- `solo_standard`
+- `rumble`
+- `dropshot`
+- `hoops`
+- `snow_day`
+
+Join the playlists you care about with a `|` between each one.  For example, if you want to only assign roles based on the ranks in the `doubles`, `standard`, and `solo_standard` playlists:
+
+```shell
+!role_playlists doubles|standard|solo_standard
+```
+
+If you run `!role_playlists` with no parameters, it'll show you what playlists are currently being used.
+
+If you want to go back to the default, run `!clear_role_playlists`.
 
 #### Updating all roles
 
