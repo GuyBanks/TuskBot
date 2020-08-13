@@ -117,6 +117,7 @@ You can also update the role of every registered user in the channel with `!upda
   - ***Example***: `!ranks jubi`
   - ***Example***: `!ranks @jubi`
 - If the `Manage Roles` permission has been granted, every time a rank is checked, the role of that player will be updated to their current highest rank.
+- Because Psyonix provides no official API for accessing console ranks, the ranks TuskBot reports for Playstation and XBox accounts may be somewhat outdated.  😕
 
 ## Stats
 
