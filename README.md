@@ -102,7 +102,7 @@ If you want to go back to the default, run `!clear_role_playlists`.
 
 #### Updating all roles
 
-You can also update the role of every registered user in the channel with `!update_all_roles`.
+Server owners (or whitelisted users) can also update the role of every registered user in the channel with `!update_all_roles`.
 
 ## Ranks
 
