@@ -185,13 +185,7 @@ By default, `TuskBot` will accept commands when you address it directly via `@Tu
 !set_command_prefix @
 ```
 
-You can see what your current command prefix is with `!command_prefix`, or if you've changed it to `@`:
-
-```shell
-@command_prefix
-```
-
-If you forget what your command prefix is, remember, you can always address `@Tusk` directly to find out:
+If you ever forget what your command prefix is, you can address `@Tusk` directly to find out:
 
 ```shell
 @Tusk command_prefix
