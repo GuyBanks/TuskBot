@@ -177,6 +177,26 @@ Everytime a `!series` command is executed, `TuskBot` stores those replays in its
 - The `!alltime` command will only pull data from the stored replays inside its local database.  Only the `!series` command will get new data from [ballchasing.com](http://ballchasing.com)
 - **If you do not upload your replays to [ballchasing.com](http://ballchasing.com), or you never run the `!series` command, you will get 0 results from `!alltime`.**
 
+### Custom Command Prefix
+
+By default, `TuskBot` will accept commands when you address it directly via `@Tusk` or prefix your command with `!`.  Server owners can change this with the `!set_command_prefix` command.  The maximum command prefix length is 8 characters.  To change it to `@`, for example:
+
+```shell
+!set_command_prefix @
+```
+
+You can see what your current command prefix is with `!command_prefix`, or if you've changed it to `@`:
+
+```shell
+@command_prefix
+```
+
+If you forget what your command prefix is, remember, you can always address `@Tusk` directly to find out:
+
+```shell
+@Tusk command_prefix
+```
+
 ### URL Commands
 
 Use the `!help` command to learn about simple commands to get URLs to specific player pages on [ballchasing.com](http://ballchasing.com), [calculated.gg](http://calculated.gg), [rocketleague.tracker.network](http://rocketleague.tracker.network), etc.
