@@ -9,6 +9,7 @@
 #### "Manage Roles" permission
 
 If the "Manage Roles" permission is granted, `TuskBot` will create 19 new roles (unless they already exist).  These will be named:
+
 - `Bronze I`
 - `Bronze II`
 - `Bronze II`
