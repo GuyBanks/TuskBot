@@ -179,7 +179,7 @@ Everytime a `!series` command is executed, `TuskBot` stores those replays in its
 
 ### Custom Command Prefix
 
-By default, `TuskBot` will accept commands when you address it directly via `@Tusk` or prefix your command with `!`.  Server owners can change this with the `!set_command_prefix` command.  The maximum command prefix length is 8 characters.  To change it to `@`, for example:
+By default, `TuskBot` will accept commands when you address it directly via `@Tusk` or prefix your command with `!`.  Server owners can change this with `!set_command_prefix`.  To change it to `@`, for example:
 
 ```shell
 !set_command_prefix @
@@ -196,6 +196,8 @@ If you ever forget what your command prefix is, you can address `@Tusk` directly
 ```shell
 @Tusk command_prefix
 ```
+
+Note: The maximum command prefix length is 8 characters.
 
 ### URL Commands
 
