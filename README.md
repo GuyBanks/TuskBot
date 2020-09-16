@@ -185,6 +185,12 @@ By default, `TuskBot` will accept commands when you address it directly via `@Tu
 !set_command_prefix @
 ```
 
+Now all commands will begin with `@`.  If you wanted to change it back to `!`, for example, you'd execute:
+
+```shell
+@set_command_prefix !
+```
+
 If you ever forget what your command prefix is, you can address `@Tusk` directly to find out:
 
 ```shell
