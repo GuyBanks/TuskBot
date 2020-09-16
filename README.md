@@ -179,13 +179,13 @@ Everytime a `!series` command is executed, `TuskBot` stores those replays in its
 
 ### Custom Command Prefix
 
-By default, `TuskBot` will accept commands when you address it directly via `@Tusk` or prefix your command with `!`.  Server owners can change this with `!set_command_prefix`.  To change it to `@`, for example:
+By default, `TuskBot` will accept commands when you address it directly via `@Tusk` or prefix your command with `!`.  Server owners can change this with `!set_command_prefix`.  To change it to `@`:
 
 ```shell
 !set_command_prefix @
 ```
 
-Now all commands will begin with `@`.  If you wanted to change it back to `!`, for example, you'd execute:
+Now all commands will begin with `@`.  If you wanted to change it back to `!`:
 
 ```shell
 @set_command_prefix !
