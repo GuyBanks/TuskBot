@@ -206,7 +206,7 @@ Use the `!help` command to learn about simple commands to get URLs to specific p
 
 ## Try it out before installing
 
-You're welcome to [join the server](https://discord.gg/7xqkAVd) where `TuskBot` was developed and try it out for yourself.
+You're welcome to [join the server](https://discord.gg/2YSmnyX) where `TuskBot` was developed and try it out for yourself.
 
 ## Bugs / Feedback
 
