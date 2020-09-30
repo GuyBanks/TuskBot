@@ -210,4 +210,4 @@ You're welcome to [join the server](https://discord.gg/2YSmnyX) where `TuskBot` 
 
 ## Bugs / Feedback
 
-Feel free to hit me up in my [discord channel](https://discord.gg/a5eEU5Q), I'm @jubi.  Or you can provide feedback through [Issues](https://github.com/jubishop/TuskBot/issues) here on this github repo.
+Feel free to hit me up in my [discord channel](https://discord.gg/2YSmnyX), I'm @jubi.  Or you can provide feedback through [Issues](https://github.com/jubishop/TuskBot/issues) here on this github repo.
