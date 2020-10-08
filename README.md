@@ -28,7 +28,10 @@ If the "Manage Roles" permission is granted, `TuskBot` will create 19 new roles 
 - `Champion I`
 - `Champion II`
 - `Champion III`
-- `Grand Champ`
+- `Grand Champion I`
+- `Grand Champion II`
+- `Grand Champion III`
+- `Supersonic Legend`
 
 Then: everytime a `!register` or `!ranks` is executed, that player will be automatically assigned the role of their highest rank.
 
